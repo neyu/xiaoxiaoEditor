@@ -1,0 +1,38 @@
+<signatures>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/TR/xmldsig-core#rsa-sha1"/>
+      <Reference URI="#PackageContents">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <DigestValue>gnoL0XgS9noJfXkv3FGqL+iCOjCp245Cy5y2ADHvvtY=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue Id="PackageSignatureValue">aX6GMrWh4jSw8ylr1s2O0e0rqHvy5q0fQqIfjt7x3fesufSpjd5rVvik3bBGgOc1Cb068ybjcqMw
+VrkxJQ29z57YEA6Dciq4TnmcZVeM41oz5QlgnJsWk7Br03MaFvol0yoJ/P8RioxAWzRF9/+98s6Q
+6w4ybQcLb2i9nCUvDd0=</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>MIICGDCCAYCgAwIBAgIZN2MyMjAyYzoxM2FiZDQzNGY0ZDotODAwMDANBgkqhkiG9w0BAQUFADA5
+MQswCQYDVQQGEwJDTjEJMAcGA1UEChMAMQkwBwYDVQQLEwAxFDASBgNVBAMTC3hpYW94aWFvenpx
+MB4XDTEyMTAzMTE4MzcxNloXDTM3MTEwMTE4MzcxNlowOTELMAkGA1UEBhMCQ04xCTAHBgNVBAoT
+ADEJMAcGA1UECxMAMRQwEgYDVQQDEwt4aWFveGlhb3p6cTCBnzANBgkqhkiG9w0BAQEFAAOBjQAw
+gYkCgYEAsV56OT6iznYyVD5d4tkxXrHZIdOSEssZ6L1rGCoWpsXS1DIqXUppH6iqcFnniaSIAYmf
+QiQ9SpiiGgyJanYm4gmSvXG7VzqBrRtz6b8BJNRAovvBFiG51xVf+n+RfNDbXhlSSzSr3LpZy6St
+tL+LWEK2cLESoo5rpmESBefZXKcCAwEAAaMXMBUwEwYDVR0lBAwwCgYIKwYBBQUHAwMwDQYJKoZI
+hvcNAQEFBQADggCBAJhoLoBDRrQIghCXbWPEdDvUUp9TzpqWjxMgSjbRG/7rl+ZSSFbYb9U2fMv4
+RTn6Q6zmih63TqPNqK5KHpbuzkv2C7MtlDzSmees+r17NgnFOAQdU+oWUugsoiaQH42i6hKoOqa5
+pG0OddnF5yjzlnECl9lI54wYy8QjeKPuZZ1I</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+    <Object>
+      <Manifest Id="PackageContents">
+        <Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>0/oCb84THKMagtI0Dy0KogEu92TegdesqRr/clXct1c=</DigestValue></Reference><Reference URI="META-INF/AIR/application.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>jJeUyOQdeuCwiwNo0q+jfg5X9a64FwZA3D4o6/UaA/E=</DigestValue></Reference><Reference URI="Main.swf"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod><DigestValue>hBjWdbeK8cEa42ftUDSyNhH7AmZfj57CaYctBlcgIIk=</DigestValue></Reference>
+      </Manifest>
+    </Object>
+    
+  </Signature>
+</signatures>

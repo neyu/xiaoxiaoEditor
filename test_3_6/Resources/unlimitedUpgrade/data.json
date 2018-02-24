@@ -1,0 +1,628 @@
+{
+  "coin": 2000,
+  "mainMenu": {
+    "info": "",
+    "defaultIndex": 1,
+    "items": [
+      {
+        "label": "商店",
+        "enabled": true,
+        "levels": [
+          "main_shop_icon_l1.png",
+          "main_shop_icon_l2.png"
+        ]
+      },
+      {
+        "label": "升级",
+        "enabled": true,
+        "levels": [
+          "main_card_icon_l1.png",
+          "main_card_icon_l2.png"
+        ]
+      },
+      {
+        "label": "游戏",
+        "enabled": true,
+        "levels": [
+          "main_game_icon_l1.png",
+          "main_game_icon_l2.png"
+        ]
+      },
+      {
+        "label": "任务",
+        "enabled": true,
+        "levels": [
+          "main_mission_icon_l1.png",
+          "main_mission_icon_l2.png"
+        ]
+      }
+    ]
+  },
+  "storPage": {
+    "info": ""
+  },
+  "cardPage": {
+    "info": "",
+    "sort": "normal",
+    "numHave": 6,
+    "levelCounts": [
+      1,
+      2,
+      4,
+      10,
+      20,
+      50,
+      100,
+      200,
+      400,
+      800,
+      1000,
+      2000,
+      5000
+    ],
+    "levelCosts": [
+      0,
+      5,
+      20,
+      50,
+      150,
+      400,
+      1000,
+      2000,
+      4000,
+      8000,
+      20000,
+      50000,
+      100000
+    ],
+    "items": [
+      {
+        "key": "mainMenu",
+        "label": "主菜单",
+        "info": "人工智能，永远是科幻电影绕不开的话题。尽管如今它已经变成科幻电影烂大街的代名词，但这里不妨我们从另一个角度，将“Artificial Intelligence”这个词拆分开，探索人工智能在大银幕上的进化和演变。",
+        "level": 0,
+        "maxLevel": 2,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_01.png"
+        ],
+        "count": 10,
+        "historyCount": 10
+      },
+      {
+        "key": "storePage",
+        "label": "商店",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_02.png"
+        ],
+        "count": 1,
+        "historyCount": 1
+      },
+      {
+        "key": "cardPage",
+        "label": "卡包",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_03.png"
+        ],
+        "count": 2,
+        "historyCount": 2
+      },
+      {
+        "key": "gamePage",
+        "label": "游戏",
+        "info": "",
+        "level": 0,
+        "maxLevel": 3,
+        "upgradeInfos": [
+          "看，有颜色了吧。",
+          "现在可以开始游戏了。现在可以开始游戏了。现在可以开始游戏了。现在可以开始游戏了。现在可以开始游戏了。现在可以开始游戏了。"
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_04.png"
+        ],
+        "count": 100,
+        "historyCount": 100
+      },
+      {
+        "key": "missionPage",
+        "label": "任务",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_05.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "cardUpgradeEffect",
+        "label": "卡牌升级效果",
+        "info": "",
+        "level": 0,
+        "maxLevel": 2,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_06.png"
+        ],
+        "count": 10,
+        "historyCount": 10
+      },
+      {
+        "key": "cardPageTitle",
+        "label": "卡包标题栏",
+        "info": "",
+        "level": 0,
+        "maxLevel": 3,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_07.png"
+        ],
+        "count": 20,
+        "historyCount": 20
+      },
+      {
+        "key": "planeGame_towerKing",
+        "label": "飞机",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_08.png"
+        ],
+        "count": 10,
+        "historyCount": 10
+      },
+      {
+        "key": "planeGame_towerKingBullet",
+        "label": "飞机的子弹",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_09.png"
+        ],
+        "count": 10,
+        "historyCount": 10
+      },
+      {
+        "key": "planeGame_towerGun",
+        "label": "小炮",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 10,
+        "historyCount": 10
+      },
+      {
+        "key": "planeGame_towerGunBullet",
+        "label": "小炮的子弹",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 10,
+        "historyCount": 10
+      },
+      {
+        "key": "planeGame_towerGunCount",
+        "label": "小炮可用数量",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 10,
+        "historyCount": 10
+      },
+      {
+        "key": "planeGame_towerLaser",
+        "label": "激光台",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerLaserBullet",
+        "label": "激光效果",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerLaserCount",
+        "label": "激光台可用数量",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerLightning",
+        "label": "闪电",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerLightningBullet",
+        "label": "闪电效果",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerLightningCount",
+        "label": "闪电可用数量",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerMagnet",
+        "label": "磁铁",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerMagnetCount",
+        "label": "磁铁可用数量",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerSpeed",
+        "label": "加速器",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      },
+      {
+        "key": "planeGame_towerSpeedCount",
+        "label": "加速器数量",
+        "info": "",
+        "level": 0,
+        "maxLevel": 5,
+        "upgradeInfos": [
+          "",
+          ""
+        ],
+        "rarity": 0,
+        "images": [
+          "cards/card_10.png"
+        ],
+        "count": 0,
+        "historyCount": 0
+      }
+    ]
+  },
+  "cardPageTitle": {
+    "info": ""
+  },
+  "cardUpgradeEffect": {
+    "info": "",
+    "backgrounds": [
+      "tile_bg1.png",
+      "tile_bg2.png"
+    ]
+  },
+  "gamePage": {
+    "info": ""
+  },
+  "planeGame": {
+    "planeGame_game": {
+      "info": ""
+    },
+    "planeGame_editor": {
+      "info": "",
+      "tileSize": 30,
+      "tileCountW": 18,
+      "tileCountH": 18,
+      "towers": [
+        "planeGame_towerGun",
+        "planeGame_towerSpeed",
+        "planeGame_towerMagnet",
+        "planeGame_towerLaser",
+        "planeGame_towerLightning"
+      ],
+      "towerMap": [
+        {
+          "key": "planeGame_towerKing",
+          "rotate": 0,
+          "x": 6,
+          "y": 7
+        }
+      ],
+      "tileMap": [
+        "0000000110000000",
+        "0000000110000000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000112222110000",
+        "0000112222110000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000000000000000",
+        "0000000110000000",
+        "0000000110000000"
+      ]
+    },
+    "planeGame_towerKing": {
+      "info": "浪费了好几天时间，没耐心继续调了，就这样发上来吧自，我感觉还算不错，真机上能看到爆炸的张力、碎片四散",
+      "tileW": 4,
+      "tileH": 2,
+      "isCanRotate": false,
+      "images": [
+        "planeGame_kingTowerA.png"
+      ]
+    },
+    "planeGame_towerKingBullet": {
+      "info": "主飞机",
+      "images": [
+      ]
+    },
+    "planeGame_towerGun": {
+      "info": "火焰的明暗变化、烟雾随风而散，比起单独看截图会好很多用真机调试",
+      "tileW": 2,
+      "tileH": 2,
+      "isCanRotate": true,
+      "images": [
+        "planeGame_towerA.png"
+      ]
+    },
+    "planeGame_towerGunBullet": {
+      "info": "普通枪",
+      "images": [
+      ]
+    },
+    "planeGame_towerGunCount": {
+      "info": "普通枪"
+    },
+    "planeGame_towerLaser": {
+      "info": "至少我这里用模拟器卡成翔，应该是模拟器没有gpu加速的缘故（也可能因为我机器是集成显卡）",
+      "tileW": 2,
+      "tileH": 2,
+      "isCanRotate": true,
+      "images": [
+        "planeGame_towerB.png"
+      ]
+    },
+    "planeGame_towerLaserBullet": {
+      "info": "激光",
+      "images": [
+      ]
+    },
+    "planeGame_towerLaserCount": {
+      "info": "激光"
+    },
+    "planeGame_towerLightning": {
+      "info": "由于真机截图不方便，所以下面的图并不全是同一次爆炸中的，后面几张图可以看出来风向有区别",
+      "tileW": 2,
+      "tileH": 2,
+      "isCanRotate": true,
+      "images": [
+        "planeGame_towerB.png"
+      ]
+    },
+    "planeGame_towerLightningBullet": {
+      "info": "闪电",
+      "images": [
+      ]
+    },
+    "planeGame_towerLightningCount": {
+      "info": "闪电"
+    },
+    "planeGame_towerMagnet": {
+      "info": "需要性能的话，可以将烟雾效果去掉，并且缩小爆炸范围，效果不会差太多，透明混合区域的运算占用资源太多",
+      "tileW": 2,
+      "tileH": 2,
+      "isCanRotate": false,
+      "images": [
+        "planeGame_towerB.png"
+      ]
+    },
+    "planeGame_towerMagnetCount": {
+      "info": "磁铁"
+    },
+    "planeGame_towerSpeed": {
+      "info": "本来想强化一下火焰边缘的烟雾效果，感觉粒子系统太难实现，周末调整了两天没啥进展，就把代码还原回来直接提交了 ",
+      "tileW": 2,
+      "tileH": 2,
+      "isCanRotate": false,
+      "images": [
+        "planeGame_towerB.png"
+      ]
+    },
+    "planeGame_towerSpeedCount": {
+      "info": "速度"
+    }
+  },
+  "missionPage": {
+    "info": "",
+    "items": [
+      {
+        "label": "先驱者",
+        "items": [
+          {
+            "missionKey": "",
+            "label": "",
+            "info": "",
+            "num": 0,
+            "maxNum": 100,
+            "completed": false,
+            "award": {
+              "cards": [
+                {
+                  "key": "mainMenu",
+                  "num": 1
+                }
+              ],
+              "gold": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

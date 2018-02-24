@@ -1,0 +1,125 @@
+{
+  "selectRoleDatas": [
+    {
+      "background": "selectRole_background02.png",
+      "items": [
+        {
+          "icon": "icon_card_0.png",
+          "name": "selectRole_01.json"
+        },
+        {
+          "icon": "icon_card_1.png",
+          "name": "selectRole_02.json"
+        },
+        {
+          "icon": "icon_card_2.png",
+          "name": "selectRole_03.json"
+        }
+      ]
+    },
+    {
+      "background": "xuanzerenwu.png",
+      "items": [
+        {
+          "icon": "icon_card_0.png",
+          "name": "selectRole_js_01.json"
+        },
+        {
+          "icon": "icon_card_1.png",
+          "name": "selectRole_qs_02.json"
+        },
+        {
+          "icon": "icon_card_2.png",
+          "name": "selectRole_qfj_03.json"
+        }
+      ]
+    }
+  ],
+  "card3DEffectData": {
+    "angleTime": 0.75,
+    "cards": [
+      "1001",
+      "1001111",
+      "1001111",
+      "1001111",
+      "1001111",
+      "1001111",
+      "1001111",
+      "1001111",
+      "1001111",
+      "1001111"
+    ],
+    "minSpaceTime": 0.0250,
+    "scale": 0.45,
+    "spaceTime": 0.5600000000000001,
+    "spaceX": 180,
+    "spaceY": 260,
+    "xCount": 5,
+    "yCount": 2,
+    "zoomInTime": 0.65,
+    "zoomToScale": 1.25
+  },
+  "storys": [
+    {
+      "name": "test1",
+      "fontName": "FZZhengHei-DB-GBK",
+      "texts": [
+        "小小",
+        "BBBB",
+        "CCCC",
+        "DDDD",
+        "EEEE",
+        "FFFF"
+      ]
+    },
+    {
+      "name": "story1",
+      "fontName": "FZZhengHei-DB-GBK",
+      "texts": [
+        "AAAA",
+        "BBBB",
+        "CCCC",
+        "DDDD",
+        "EEEE",
+        "FFFF"
+      ]
+    }
+  ],
+  "uiFlashMovieClips": [
+    "testMovie01",
+    "testMovie02",
+    "testMovie03"
+  ],
+    "xui": [
+            {
+            "name": "BL_test01",
+            "x": 100,
+            "y": 100
+            },
+    {
+      "name": "BL_test01_win",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "name": "UI_02",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "name": "UI_test2",
+      "x": 100,
+      "y": 100
+      },
+      {
+          "name": "UI_test1",
+          "x": 100,
+          "y": 100
+          },
+          {
+          "name": "UI_title_02",
+          "x": 100,
+          "y": 100
+          }
+  ]
+}

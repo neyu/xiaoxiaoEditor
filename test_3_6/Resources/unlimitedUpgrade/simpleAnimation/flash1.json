@@ -1,0 +1,15 @@
+{
+  "versions": "xiaoxiao simpleAnimation 1.0.0",
+  "fps": 12,
+  "frames": [
+    {
+      "src": "eft_flash_a3.png"
+    },
+    {
+      "src": "eft_flash_a4.png"
+    },
+    {
+      "src": "eft_flash_a5.png"
+    }
+  ]
+}
