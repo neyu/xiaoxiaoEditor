@@ -1,0 +1,25 @@
+{
+  "TouchEvent": {
+    "BEGIN": "begin",
+    "MOVED": "moved",
+    "ENDED": "ended",
+    "OUT": "out",
+    "OVER": "over",
+    "OUTSIDE_MOVED": "outsideMoved",
+    "OUTSIDE_ENDED": "outsideEnded"
+  },
+  "KeyboardEvent": {
+    "KEY_DOWN": "keyDown",
+    "KEY_UP": "keyUp"
+  },
+  "DragEvent": {
+    "BEGIN": "dragBegin",
+    "MOVED": "dragMoved",
+    "ENDED": "dragEnded"
+  },
+  "MovieClipEvent": {
+    "ENTER_FRAME": "enterFrame",
+    "ENTER_LABEL": "enterLabel",
+    "PLAY_COMPLETE": "playComplete"
+  }
+}

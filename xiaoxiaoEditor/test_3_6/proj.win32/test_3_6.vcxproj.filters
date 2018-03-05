@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{a89cb832-ed4a-45a4-8959-b0e46a6998ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\test">
+      <UniqueIdentifier>{d74c1d05-47af-4ce2-a40c-874f4e42ea5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\utils">
+      <UniqueIdentifier>{16054e6a-c112-421d-994d-68c4b66c2de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass3.0">
+      <UniqueIdentifier>{668db453-24bc-49ff-b8fe-1513cb0f6bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass5.1">
+      <UniqueIdentifier>{28194db1-1aec-41c9-96e9-1a97540565f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\test\x9Test">
+      <UniqueIdentifier>{8d91e2c5-7ab4-4f52-a4e6-4811e53807c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass5.1\animation">
+      <UniqueIdentifier>{7234d9f2-99a3-4913-9805-fde6e207643a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass5.1\table">
+      <UniqueIdentifier>{2c3e713a-52b8-42a3-8884-d3e3c7d4b98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass5.1\script">
+      <UniqueIdentifier>{adc61c78-ff86-4de7-a2a6-b456e70f7466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass5.1\script\baseClasses">
+      <UniqueIdentifier>{f491bd7a-d9e4-4774-8d74-f727271dc534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass5.1\script\baseClasses\action">
+      <UniqueIdentifier>{8edcebc0-7bbb-46df-9e24-44de36548ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\xClass5.1\script\baseClasses\event">
+      <UniqueIdentifier>{e8883d73-535f-4462-b283-5c327934fb10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\BaseTestLayer.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\ConfigData.cpp">
+      <Filter>Classes\test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\test\x9Test\X9Test.cpp">
+      <Filter>Classes\test\x9Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\X9AutoObject.cpp">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\X9Path.cpp">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\XBezier.cpp">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\XBezierList.cpp">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\XMath.cpp">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\animation\X9FLAnimation.cpp">
+      <Filter>Classes\xClass5.1\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\animation\X9FLAnimationData.cpp">
+      <Filter>Classes\xClass5.1\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\table\X9TableLoader.cpp">
+      <Filter>Classes\xClass5.1\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\X9Player.cpp">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\X9RunScript.cpp">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\X9ScriptData.cpp">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\X9SoundPlayer.cpp">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\X9TargetManager.cpp">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9AniPosFrame.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Array.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9BaseGlobal.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9BaseScene.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9BezierList.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Color.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9DisplayObject.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Event.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9EventDispatcher.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9HitTile.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Image.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9KeyFrameScriptNode.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Label.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Math.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9MovieClip.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Node.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Object.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Particle.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Point.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Rect.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Scale9Image.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Size.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Slider.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9StateButton.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9UserDefault.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\X9Vec3.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9Action.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9AlphaTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9CallBackAction.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9ColorTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9EaseAction.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9MoveBy.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9MoveTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9RotationBy.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9RotationTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9ScaleBy.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9ScaleTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9Sequence.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9SkewBy.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9SkewTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9Spawn.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9UpdateAction.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9ValueTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\action\X9VisibleTo.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\event\X9KeyboardEvent.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\event\X9MovieClipEvent.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\xClass5.1\script\baseClasses\event\X9TouchEvent.cpp">
+      <Filter>Classes\xClass5.1\script\baseClasses\event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csAppClient.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\csUtils.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\stdafx.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\XJsonMacrocoding.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\BaseTestLayer.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\ConfigData.h">
+      <Filter>Classes\test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\test\x9Test\X9Test.h">
+      <Filter>Classes\test\x9Test</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\utils\CSXObjectPool.h">
+      <Filter>Classes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\csUtils.h">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\X9AutoObject.h">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\X9Path.h">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\XBezier.h">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\XBezierList.h">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\XMath.h">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\XUtils.h">
+      <Filter>Classes\xClass5.1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\animation\X9FLAnimation.h">
+      <Filter>Classes\xClass5.1\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\animation\X9FLAnimationData.h">
+      <Filter>Classes\xClass5.1\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\table\X9TableLoader.h">
+      <Filter>Classes\xClass5.1\table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\x9AppClient.h">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\X9Player.h">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\X9RunScript.h">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\X9ScriptData.h">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\X9SoundPlayer.h">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\X9TargetManager.h">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\x9Utils.h">
+      <Filter>Classes\xClass5.1\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9AniPosFrame.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Array.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9BaseGlobal.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9BaseScene.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9BezierList.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Color.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9DisplayObject.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Event.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9EventDispatcher.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9HitTile.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Image.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9KeyFrameScriptNode.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Label.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Math.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9MovieClip.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Node.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Object.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Particle.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Point.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Rect.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Scale9Image.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Size.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Slider.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9StateButton.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9UserDefault.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\X9Vec3.h">
+      <Filter>Classes\xClass5.1\script\baseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9Action.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9AlphaTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9CallBackAction.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9ColorTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9EaseAction.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9MoveBy.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9MoveTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9RotationBy.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9RotationTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9ScaleBy.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9ScaleTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9Sequence.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9SkewBy.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9SkewTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9Spawn.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9UpdateAction.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9ValueTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\action\X9VisibleTo.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\event\X9KeyboardEvent.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\event\X9MovieClipEvent.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\xClass5.1\script\baseClasses\event\X9TouchEvent.h">
+      <Filter>Classes\xClass5.1\script\baseClasses\event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

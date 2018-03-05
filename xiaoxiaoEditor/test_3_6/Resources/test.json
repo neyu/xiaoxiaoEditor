@@ -1,0 +1,70 @@
+[
+  {
+    "t": "class",
+    "v": "Main",
+    "a": {
+      "t": "string",
+      "v": "BaseMain"
+    },
+    "c": [
+      {
+        "t": "var",
+        "v": "myName",
+        "a": {
+          "t": "string",
+          "v": "朱志强"
+        }
+      },
+      {
+        "t": "var",
+        "v": "num",
+        "a": {
+          "t": "number",
+          "v": 100
+        }
+      },
+      {
+        "t": "function",
+        "v": "Main",
+        "c": [
+          {
+            "t": "command",
+            "p": [
+              "this"
+            ],
+            "v": "testFunc"
+          }
+        ]
+      },
+      {
+        "t": "function",
+        "v": "testFunc",
+        "c": [
+          {
+            "t": "command",
+            "v": "trace",
+            "c": [
+              {
+                "t": "operator",
+                "v": "*",
+                "c": [
+                  {
+                    "t": "value",
+                    "p": [
+                      "this"
+                    ],
+                    "v": "num"
+                  },
+                  {
+                    "t": "number",
+                    "v": 25.5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

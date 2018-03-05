@@ -1,0 +1,30 @@
+{
+  "versions": "xiaoxiao simpleAnimation 1.0.0",
+  "fps": 30,
+  "frames": [
+    {
+      "src": "eft_light_c0.png"
+    },
+    {
+      "src": "eft_light_c1.png"
+    },
+    {
+      "src": "eft_light_c2.png"
+    },
+    {
+      "src": "eft_light_c3.png"
+    },
+    {
+      "src": "eft_light_c4.png"
+    },
+    {
+      "src": "eft_light_c5.png"
+    },
+    {
+      "src": "eft_light_c6.png"
+    },
+    {
+      "src": "eft_light_c7.png"
+    }
+  ]
+}

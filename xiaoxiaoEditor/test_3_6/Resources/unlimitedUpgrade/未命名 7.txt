@@ -1,0 +1,274 @@
+例子：
+Lockscreen frameRate:30 screenWidth:720 displayDesktop:false		<- 参数
+	BoxArray name:"zzq" count:10 x:0 y:0 count:5 sx:1 sy:1 rot:0 <- 参数
+		ListActions time:3 delay:0 <- 参数
+			ListAction time:0 <- 参数
+				tx1 50 100 <- 动态参数
+				ty1 300 100 <- 动态参数
+				tx2 600 100 <- 动态参数
+				ty2 300 100 <- 动态参数
+			ListAction time:1
+				tx1 50 100 <- 动态参数
+				ty1 300 100 <- 动态参数
+				tx2 600 100 <- 动态参数
+				ty2 300 100 <- 动态参数
+
+		ItemActions itemTime:1 delay:0.5 sp:0.3 randomRort:true stSp:1 edSp:0 <- 参数
+			ItemAction time:0 <- 参数
+				x 0 100 <- 动态参数
+				y 0 100 <- 动态参数
+				w 50 100 <- 动态参数
+				h 50 100 <- 动态参数
+				alpha 255 <- 动态参数
+			ItemAction time:1 <- 参数
+				x 0 100 <- 动态参数
+				y 100 100 <- 动态参数
+				w 50 100 <- 动态参数
+				h 50 100 <- 动态参数
+				alpha 0 100 <- 动态参数
+
+
+参数格式：
+	参数名:参数值
+	name:”zzq”
+动态参数格式：
+	参数名 参数值 随机范围值
+	x 20 100
+
+ListActions	
+	参数：
+		time	队列过度动画时长
+		delay	队列过度动画启动延时
+	ListAction
+		参数：
+			time	队列过度动画的时间位置(0-1的小数)
+		动态参数：
+			tx1	队列起点X坐标	
+			ty1	队列起点Y坐标
+			tx2	队列终点X坐标
+			ty2	队列终点Y坐标
+
+ItemActions
+	参数：
+		itemTime 	每个子元素的动画时长
+		delay		动画启动延时
+		sp		子元素动画的间隔时间比例（0-1的小数）
+		randomRort	(true, false)是否随机排序启动动画。如果sp为0时无效
+		stSp		(0-1的小数)同时启动动画的参数。如果sp为0时无效
+		edSp		(0-1的小数)同时结束动画的参数。如果sp为0时无效
+ItemAction
+	参数：
+		time	队列元素动画的时间位置(0-1的小数)
+
+
+Lockscreen 锁屏对象
+	参数：
+		frameRate	刷新频率
+		screenWidth	屏幕宽度分辨率
+		displayDesktop	是否显示桌面
+
+BoxArray 矩形队列效果对象
+	参数：
+		autoPlay	(true,false)是否自动播放
+		name		(字符串)名称
+		count		数量
+		randomSeed	随机种子
+		x		Array的x坐标
+		y		Array的y坐标
+		align		坐标点水平对齐方式（left, center, right）
+		alignV		坐标点垂直对齐方式（top, center, bottom）
+		sx		Array的scaleX缩放比例
+		sy		Array的scaleY缩放比例
+		rot		Array的rotation角度
+		cornerRadius	子元素矩形的倒角半径，格式"x向半径,y向半径"
+		strokeAlign	子元素的描边对齐方式，inner内描，center中心描边，outer外描
+	ItemAction动态参数：
+		x		子元素的x位置
+		y		子元素的y位置
+		w		子元素的宽度
+		h		子元素的高度
+		rot		子元素的角度
+		pivotX		子元素的X旋转轴心（0到1的小数）
+		pivotY		子元素的Y旋转轴心（0到1的小数）
+		colorA		子元素的填充透明(0-255)
+		colorR		子元素的填充红色(0-255)
+		colorG		子元素的填充绿色(0-255)
+		colorB		子元素的填充蓝色(0-255)
+		strokeColorA	子元素的线条透明(0-255)
+		strokeColorR	子元素的线条红色(0-255)
+		strokeColorG	子元素的线条绿色(0-255)
+		strokeColorB	子元素的线条蓝色(0-255)
+		weight		子元素的线条粗细
+
+EllipseArray 椭圆队列效果对象
+	参数：
+		autoPlay	(true,false)是否自动播放
+		name		(字符串)名称
+		count		数量
+		randomSeed	随机种子
+		x		Array的x坐标
+		y		Array的y坐标
+		align		坐标点水平对齐方式（left, center, right）
+		alignV		坐标点垂直对齐方式（top, center, bottom）
+		sx		Array的scaleX缩放比例
+		sy		Array的scaleY缩放比例
+		rot		Array的rotation角度
+		strokeAlign	子元素的描边对齐方式，inner内描，center中心描边，outer外描
+	ItemAction动态参数：
+		x		子元素的x位置
+		y		子元素的y位置
+		w		子元素的宽度
+		h		子元素的高度
+		rot		子元素的角度
+		pivotX		子元素的X旋转轴心（0到1的小数）
+		pivotY		子元素的Y旋转轴心（0到1的小数）
+		colorA		子元素的填充透明(0-255)
+		colorR		子元素的填充红色(0-255)
+		colorG		子元素的填充绿色(0-255)
+		colorB		子元素的填充蓝色(0-255)
+		strokeColorA	子元素的线条透明(0-255)
+		strokeColorR	子元素的线条红色(0-255)
+		strokeColorG	子元素的线条绿色(0-255)
+		strokeColorB	子元素的线条蓝色(0-255)
+		weight		子元素的线条粗细
+
+CircleArray 正圆形队列效果对象
+	参数：
+		autoPlay	(true,false)是否自动播放
+		name		(字符串)名称
+		count		数量
+		randomSeed	随机种子
+		x		Array的x坐标
+		y		Array的y坐标
+		align		坐标点水平对齐方式（left, center, right）
+		alignV		坐标点垂直对齐方式（top, center, bottom）
+		sx		Array的scaleX缩放比例
+		sy		Array的scaleY缩放比例
+		rot		Array的rotation角度
+		strokeAlign	子元素的描边对齐方式，inner内描，center中心描边，outer外描
+	ItemAction动态参数：
+		x		子元素的x位置
+		y		子元素的y位置
+		r		子元素的半径
+		rot		子元素的角度
+		pivotX		子元素的X旋转轴心（0到1的小数）
+		pivotY		子元素的Y旋转轴心（0到1的小数）
+		colorA		子元素的填充透明(0-255)
+		colorR		子元素的填充红色(0-255)
+		colorG		子元素的填充绿色(0-255)
+		colorB		子元素的填充蓝色(0-255)
+		strokeColorA	子元素的线条透明(0-255)
+		strokeColorR	子元素的线条红色(0-255)
+		strokeColorG	子元素的线条绿色(0-255)
+		strokeColorB	子元素的线条蓝色(0-255)
+		weight		子元素的线条粗细
+
+ArcArray 圆弧队列效果对象
+	参数：
+		autoPlay	(true,false)是否自动播放
+		name		(字符串)名称
+		count		数量
+		randomSeed	随机种子
+		x		Array的x坐标
+		y		Array的y坐标
+		align		坐标点水平对齐方式（left, center, right）
+		alignV		坐标点垂直对齐方式（top, center, bottom）
+		sx		Array的scaleX缩放比例
+		sy		Array的scaleY缩放比例
+		rot		Array的rotation角度
+		strokeAlign	子元素的描边对齐方式，inner内描，center中心描边，outer外描
+		close		子元素圆弧是否闭合
+	ItemAction动态参数：
+		x		子元素的x位置
+		y		子元素的y位置
+		w		子元素的宽度
+		h		子元素的高度
+		startAngle	子元素的起始角
+		sweep		子元素的扫描角（扇形的角度）
+		colorA		子元素的填充透明(0-255)
+		colorR		子元素的填充红色(0-255)
+		colorG		子元素的填充绿色(0-255)
+		colorB		子元素的填充蓝色(0-255)
+		strokeColorA	子元素的线条透明(0-255)
+		strokeColorR	子元素的线条红色(0-255)
+		strokeColorG	子元素的线条绿色(0-255)
+		strokeColorB	子元素的线条蓝色(0-255)
+		weight		子元素的线条粗细
+
+TxtArray 文本队列效果对象
+	参数：
+		autoPlay	(true,false)是否自动播放
+		name		(字符串)名称
+		randomSeed	随机种子
+		text		(字符串)文本内容
+		bold		(true,false)是否为粗体
+		x		Array的x坐标
+		y		Array的y坐标
+		sx		Array的scaleX缩放比例
+		sy		Array的scaleY缩放比例
+		rot		Array的rotation角度
+	ItemAction动态参数：
+		x		子元素的x位置
+		y		子元素的y位置
+		size		子元素的字号
+		colorA		子元素的填充透明(0-255)
+		colorR		子元素的填充红色(0-255)
+		colorG		子元素的填充绿色(0-255)
+		colorB		子元素的填充蓝色(0-255)
+		rot		子元素的角度
+		pivotX		子元素的X旋转轴心（0到1的小数）
+		pivotY		子元素的Y旋转轴心（0到1的小数）
+
+ImageArray 图片队列效果对象
+	参数：
+		autoPlay	(true,false)是否自动播放
+		name		(字符串)名称
+		randomSeed	随机种子
+		src		(字符串)图片名称
+		count		数量
+		x		Array的x坐标
+		y		Array的y坐标
+		align		坐标点水平对齐方式（left, center, right）
+		alignV		坐标点垂直对齐方式（top, center, bottom）
+		sx		Array的scaleX缩放比例
+		sy		Array的scaleY缩放比例
+		rot		Array的rotation角度
+	ItemAction动态参数：
+		x		子元素的x位置
+		y		子元素的y位置
+		w		子元素的宽度
+		h		子元素的高度
+		alpha		子元素的填充透明(0-255)
+		rot		子元素的角度
+		pivotX		子元素的X旋转轴心（0到1的小数）
+		pivotY		子元素的Y旋转轴心（0到1的小数）
+
+SequenceArray 序列图片队列效果对象
+	参数：
+		autoPlay	(true,false)是否自动播放
+		name		(字符串)名称
+		randomSeed	随机种子
+		src		(字符串)序列图片名称 “a.png,b.png,c.png”
+		count		数量
+		x		Array的x坐标
+		y		Array的y坐标
+		align		坐标点水平对齐方式（left, center, right）
+		alignV		坐标点垂直对齐方式（top, center, bottom）
+		sx		Array的scaleX缩放比例
+		sy		Array的scaleY缩放比例
+		rot		Array的rotation角度
+	ItemAction动态参数：
+		x		子元素的x位置
+		y		子元素的y位置
+		w		子元素的宽度
+		h		子元素的高度
+		alpha		子元素的填充透明(0-255)
+		rot		子元素的角度
+		pivotX		子元素的X旋转轴心（0到1的小数）
+		pivotY		子元素的Y旋转轴心（0到1的小数）
+
+
+
+Button x:0 y:100 w:720 h:1180
+	Trigger action:"double"  (down)
+		play "zzq"

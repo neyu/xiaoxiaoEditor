@@ -1,0 +1,1 @@
+ID	名称	等级	说明	链接1	链接2	是否可用id	name	level	info	link1	link2	enablednumber	string	number	string	string	string	bool0	card0	11		asdf	asdf	01	card1	33		asdf	asdf	12	card2	21		wrqwer	wrqwer	13	card3	9		sfasd	sfasd	04	card4	4		sfasd	sfasd	15	card5	22		sfasd	sfasd	06	card6	33		sfasd	sfasd	17	card7	14		sfasd	sfasd	18	card8	53		sfasd	sfasd	19	card9	109		sfasd	sfasd	0
